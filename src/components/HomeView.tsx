@@ -62,7 +62,7 @@ export default function HomeView({ language, onBookService, onSelectService }: H
         {/* Hero Abstract Background Geometric Overlay */}
         <div className="absolute inset-0 z-0 opacity-40">
           <img
-            src="/src/assets/images/hero_engineer_1786349101016.jpg"
+            src="/assets/images/hero_engineer_1786349101016.jpg"
             alt="Sopepri Hero Banner"
             className="w-full h-full object-cover scale-105 filter brightness-[0.35] contrast-[1.1]"
             referrerPolicy="no-referrer"
@@ -144,7 +144,7 @@ export default function HomeView({ language, onBookService, onSelectService }: H
             >
               <div className="aspect-[4/5] rounded-lg overflow-hidden relative group">
                 <img
-                  src="/src/assets/images/hero_engineer_1786349101016.jpg"
+                  src="/assets/images/hero_engineer_1786349101016.jpg"
                   alt="Sopepri Engineer Profile"
                   className="w-full h-full object-cover filter brightness-[0.9] group-hover:scale-105 transition-transform duration-700"
                   referrerPolicy="no-referrer"
