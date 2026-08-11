@@ -1,0 +1,6 @@
+{
+  "name": "Sopepri",
+  "description": "Sopepri - Comércio e prestação de serviços técnicos em geral, manutenção de condomínios e organizações em Angola.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
