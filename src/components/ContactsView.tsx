@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'motion/react';
 import ContactForm from './ContactForm';
 import { SERVICES } from '../data';
+import heroEngineer from '../assets/images/hero_engineer_1786349101016.jpg';
 
 interface ContactsViewProps {
   language: 'pt' | 'en';
@@ -15,7 +16,7 @@ export default function ContactsView({ language, preselectedServiceId }: Contact
       <div className="bg-slate-950 text-white py-14 px-4 relative overflow-hidden border-b border-slate-800">
         <div className="absolute inset-0 opacity-15">
           <img
-            src="/assets/images/hero_engineer_1786349101016.jpg"
+            src={heroEngineer}
             alt="Contacts Background"
             className="w-full h-full object-cover filter brightness-[0.5]"
           />

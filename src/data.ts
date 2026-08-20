@@ -1,4 +1,8 @@
 import { Service, Testimonial, PortfolioItem } from './types';
+import portfolioTeamwork from './assets/images/portfolio_teamwork_1786349171155.jpg';
+import portfolioWorker from './assets/images/portfolio_worker_1786349120052.jpg';
+import portfolioTechnician from './assets/images/portfolio_technician_1786349153777.jpg';
+import portfolioBuilding from './assets/images/portfolio_building_1786349135979.jpg';
 
 export const PILLARS = [
   {
@@ -114,7 +118,7 @@ export const PORTFOLIO: PortfolioItem[] = [
     titleEn: 'Integrated Technical Management',
     category: 'Manutenção',
     categoryEn: 'Maintenance',
-    imageUrl: '/assets/images/portfolio_teamwork_1786349171155.jpg',
+    imageUrl: portfolioTeamwork,
     description: 'Planeamento e supervisão de infraestruturas comuns em condomínio de luxo em Luanda.',
     descriptionEn: 'Planning and supervision of common infrastructures in a luxury condominium in Luanda.',
   },
@@ -124,7 +128,7 @@ export const PORTFOLIO: PortfolioItem[] = [
     titleEn: 'Precision Construction & Masonry',
     category: 'Construção',
     categoryEn: 'Construction',
-    imageUrl: '/assets/images/portfolio_worker_1786349120052.jpg',
+    imageUrl: portfolioWorker,
     description: 'Equipa técnica especializada a realizar ampliação estrutural segura com acabamentos premium.',
     descriptionEn: 'Specialized technical team carrying out safe structural expansion with premium finishes.',
   },
@@ -134,7 +138,7 @@ export const PORTFOLIO: PortfolioItem[] = [
     titleEn: 'Complex Hydraulic Installation',
     category: 'Hidráulica',
     categoryEn: 'Hydraulics',
-    imageUrl: '/assets/images/portfolio_technician_1786349153777.jpg',
+    imageUrl: portfolioTechnician,
     description: 'Montagem de sistema moderno de pressurização e distribuição de água potável.',
     descriptionEn: 'Installation of a modern pressurization and drinking water distribution system.',
   },
@@ -144,7 +148,7 @@ export const PORTFOLIO: PortfolioItem[] = [
     titleEn: 'Building Facade Maintenance',
     category: 'Urbanizações',
     categoryEn: 'Urbanizations',
-    imageUrl: '/assets/images/portfolio_building_1786349135979.jpg',
+    imageUrl: portfolioBuilding,
     description: 'Aplicação de tintas de alta resistência a intempéries em fachada de condomínio residencial.',
     descriptionEn: 'Application of high-weather-resistance paints on the facade of a residential condominium.',
   },

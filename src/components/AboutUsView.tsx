@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { HardHat, Truck, Building2, Paintbrush, Wrench, Shield, Award, Users, HelpCircle } from 'lucide-react';
 import { PILLARS } from '../data';
+import portfolioTeamwork from '../assets/images/portfolio_teamwork_1786349171155.jpg';
 
 interface AboutUsViewProps {
   language: 'pt' | 'en';
@@ -29,7 +30,7 @@ export default function AboutUsView({ language }: AboutUsViewProps) {
       <div className="bg-slate-950 text-white py-14 px-4 relative overflow-hidden border-b border-slate-800">
         <div className="absolute inset-0 opacity-15">
           <img
-            src="/assets/images/portfolio_teamwork_1786349171155.jpg"
+            src={portfolioTeamwork}
             alt="Teamwork Background"
             className="w-full h-full object-cover filter brightness-[0.5]"
           />
@@ -56,7 +57,7 @@ export default function AboutUsView({ language }: AboutUsViewProps) {
             <div className="lg:col-span-5 relative">
               <div className="relative rounded-xl overflow-hidden shadow-md border border-slate-200 dark:border-slate-800">
                 <img
-                  src="/assets/images/portfolio_teamwork_1786349171155.jpg"
+                  src={portfolioTeamwork}
                   alt="Sopepri Project Management Collaboration"
                   className="w-full h-auto object-cover aspect-[4/3] filter contrast-[1.03]"
                   referrerPolicy="no-referrer"
